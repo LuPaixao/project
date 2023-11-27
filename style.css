@@ -1,0 +1,19 @@
+body{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+.nav-bar{
+    background-color: blue;
+    color: white;
+}
+
+a{
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
