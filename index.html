@@ -7,18 +7,20 @@
         <title>Diamond Solutions</title>
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/geral.css">
+        <link rel="stylesheet" href="style/footer.css">
     </head>
     <body>
         <header>
             <figure>
-                <img src="assets/logo_colorida.png" alt="Logo" class="img_logo">
+                <img src="assets/logo_colorida.png" alt="Logo" class="img__logo">
             </figure>
-            <section class="nav-bar">
+            <section class="nav__bar">
                 <nav>
                     <ul>
                         <li><a href="#quemsomos" alt="Quem somos">QUEM SOMOS</a></li>
                         <li><a href="#servicos" alt="Serviços">SERVIÇOS</a></li>
-                        <li><a href="#cases-de-sucesso" alt="Cases de sucesso">CASES DE SUCESSO</a></li>
+                        <li><a href="#" alt="Cases de sucesso">CASES DE SUCESSO</a></li>
                         <li><a href="#trabalhe-conosco" alt="Trabalhe conosco">TRABALHE CONOSCO</a></li>
                     </ul>
                 </nav>
@@ -26,10 +28,10 @@
             </section>
         </header>
         <main class="main">
-            <section id="#quemsomos" class="section-quemsomos">
-                <div>
-                    <h1>Quem somos</h1>
-                    <p>
+            <section id="#quemsomos" class="section__sobre">
+                <div class="div__sobre">
+                    <h1 class="title">QUEM SOMOS</h1>
+                    <p class="text">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat,
                       laborum quam unde facere explicabo repellat magni soluta, libero
                       sint possimus enim quos consectetur, perferendis ab deserunt
@@ -40,9 +42,9 @@
                       suscipit.
                     </p>
                 </div>
-                <div>
-                    <h2>Nossa história</h2>
-                    <p>
+                <div class="div__sobre">
+                    <h2 class="title">NOSSA HISTÓRIA</h2>
+                    <p class="text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
                       sit ratione nulla ullam unde, amet cupiditate beatae voluptatibus
                       tempora exercitationem sunt ipsam dolore optio. Corrupti ea
@@ -53,35 +55,30 @@
                     </p>
                 </div>
             </section>
-            <section id="servicos">
-                <h2>Serviços</h2>
-                <ul>
-                    <li><a href="#">Business Intelligence</a></li>
-                    <li><a href="#">Software</a></li>
-                    <li><a href="#">Mobile</a></li>
-                    <li><a href="#">Consultoria</a></li>
+            <section id="servicos" class="servicos__section">
+                <h2 class="title">NOSSOS SERVIÇOS</h2>
+                <ul class="ul__servicos">
+                    <li class="servicos__li">
+                      <img src="./assets/grafico.png" class="servicos__image">
+                      <p class="text__servicos">BUSINESS INTELLIGENCE</p>
+                    </li>
+                    <li class="servicos__li">
+                      <img src="./assets/monitor.png" class="servicos__image">
+                      <p class="text__servicos">SOFTWARE</p>
+                    </li>
+                    <li class="servicos__li">
+                      <img src="./assets/cell.png" class="servicos__image">
+                      <p class="text__servicos">MOBILE</p>
+                    </li>
+                    <li class="servicos__li">
+                      <img src="./assets/pessoas.png" class="servicos__image">
+                      <p class="text__servicos">CONSULTORIA</p>
+                    </li>
                 </ul>
             </section>
-            <section id="cases-de-sucesso">
-            <h2>Cases de sucesso</h2>
-            <ul>
-                <li>
-                <a href="#">Case 1</a>
-                </li>
-                <li>
-                <a href="#">Case 2</a>
-                </li>
-                <li>
-                <a href="#">Case 3</a>
-                </li>
-            </ul>
-            </section>
-            <section id="trabalhe-conosco">
-            <h2>Trabalhe conosco</a>
-            </section>
-
+           
         </main>
-        <footer>
+        <footer id="trabalhe-conosco" class="footer">
             <p>Escrito por Luana Albuquerque</p>
             <p>Publicado em 27/11/2023 </p>
         </footer>
@@ -89,69 +86,3 @@
     </body>
 </html>
 
-<!--
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <title>Diamond Solutions</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Diamond Solutions</h1>
-    <nav>
-      <a href="#quemsomos">Quem somos</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#cases-de-sucesso">Cases de sucesso</a>
-      <a href="#trabalhe-conosco">Trabalhe conosco</a>
-    </nav>
-  </header>
-  <main>
-    <section id="quemsomos">
-      <h2>Quem somos</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maecenas ultrices, sem vel fermentum suscipit, nibh leo hendrerit est, non congue massa dolor lobortis leo. Curabitur sollicitudin nisl orci, id rhoncus sapien tempus non, quisque ut libero congue, convallis erat nec, venenatis urna. Curabitur nec odio imperdiet, congue lorem tempus, llis ex fringilla eleifend.
-      </p>
-    </section>
-    <section id="servicos">
-      <h2>Serviços</h2>
-      <ul>
-        <li>
-          <a href="#">Business Intelligence</a>
-        </li>
-        <li>
-          <a href="#">Software</a>
-        </li>
-        <li>
-          <a href="#">Mobile</a>
-        </li>
-        <li>
-          <a href="#">Consultoria</a>
-        </li>
-      </ul>
-    </section>
-    <section id="cases-de-sucesso">
-      <h2>Cases de sucesso</h2>
-      <ul>
-        <li>
-          <a href="#">Case 1</a>
-        </li>
-        <li>
-          <a href="#">Case 2</a>
-        </li>
-        <li>
-          <a href="#">Case 3</a>
-        </li>
-      </ul>
-    </section>
-    <section id="trabalhe-conosco">
-      <h2>Trabalhe conosco</a>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright &copy; 2023 Diamond Solutions</p>
-  </footer>
-</body>
-</html>
--->
